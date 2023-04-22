@@ -1,13 +1,105 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Capstone 1</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  </head>
-  <body>
+    <title>kunda | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  </body>
+
+</head>
+
+<body>
+    <!-- Navigation menu -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg fixed-top pt-4">
+            <div class="container glass-nav">
+                <a class="navbar-brand fs-4 fw-bold" href="index.html">kunda.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">kunda.</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <!-- <li class="nav-item">
+                                <a class="nav-link active fs-6" aria-current="page" href="#">Home</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#">Contact</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link fs-6 login-btn" href="login.html">Login</a>
+                            </li>
+
+                            <li class="nav-item fs-6 signup-btn">
+                                <a class="nav-link" href="sign-up.html">Sign Up</a>
+                            </li>
+                        </ul>
+                        <!-- <div class="d-flex justify-content-evenly">
+                            <a class="nav-link" href="#">Sign Up</a>
+                            <a class="nav-link" href="#">Sign Up</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <main>
+        <section class="container p-3  text-center hero">
+            <h1 class="display-3 fw-bold text-body-emphasis heading-text" >
+                Create <span class="special">amazing interfaces</span> with our customizable 3D Characters.
+            </h1>
+            <p class="lead fs-6 mb-4 text-center mx-auto col-lg-6 col-sm-10" >With our wide range of customizable characters, you can easily enhance your
+                design process, save time, and create stunning interfaces that will delight your users. Explore
+                our collection today and find the perfect characters to empower your design workflow.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <button type="button" class="btn btn-dark btn-lg px-4 me-sm-3 get-started-btn"><a href="login.html" class="text-decoration-none text-white">Get started</a></button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4 learn-more-btn"><a href="shop.html" class="text-decoration-none" style="color: gray;">Browse characters</a></button>
+                </div>
+
+
+                <div class="glow"></div>
+                <div class="glow-two"></div>
+                <div>
+                    <img src="image.png" alt="" srcset="">
+                </div>
+                
+        </section>
+        <div class="container py-3 my-5">
+            <p class="text-center text-body-secondary">&copy; 2023 Kunda, Inc</p>
+          </footer>
+        </div>
+         
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
