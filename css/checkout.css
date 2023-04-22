@@ -1,0 +1,18 @@
+.container {
+    max-width: 960px;
+  }
+
+  .back{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 100%;
+}
+
+.back:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+}
